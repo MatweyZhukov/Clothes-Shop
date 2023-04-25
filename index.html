@@ -1,0 +1,66 @@
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles/main.css">
+	<link rel="stylesheet" href="styles/left.css">
+	<link rel="stylesheet" href="styles/right.css">
+	<link rel="stylesheet" href="styles/cart.css">
+	<link rel="stylesheet" href="styles/modal.css">
+	<link rel="icon" href="images/header-icon.png">
+	<title>Clothes Shop</title>
+</head>
+
+<body>
+	<main>
+		<div class="main_left">
+			<h1>
+				Найдите себе вещь по вкусу!
+			</h1>
+			<button data-open class="open">Корзина</button>
+
+			<input placeholder="Найти..." type="text" class="search">
+		</div>
+
+		<div class="main_right">
+			<div class="block_tiles">
+
+			</div>
+		</div>
+
+		<div class="cart">
+			<h1 class="cart_title">Ваша корзина пуста!</h1>
+			<div class="cart_content">
+				<div class="cart_block-close">
+					<button class="close">
+						<img src="images/close.png" alt="Close">
+					</button>
+				</div>
+				<div class="cart_main">
+
+				</div>
+				<img class="empty" src="images/empty.png">
+			</div>
+		</div>
+
+		<div class="modal">
+			<div class="modal_content">
+				<div class="close_modal">
+					<img src="images/close.png">
+				</div>
+				<div class="modal_text">
+					<p>
+						Для добавления товара в козрину просто нажмите на него! Все ваши товары хранятся в вашей
+						<button class="open_modal">корзине</button>.
+					</p>
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<script src="js/bundle.js"></script>
+</body>
+
+</html>

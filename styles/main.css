@@ -1,0 +1,204 @@
+@media (max-width: 8000px) {
+  .block_tiles {
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 1250px;
+  }
+
+  .tile {
+    width: 300px;
+  }
+
+  .main_left input {
+    width: 500px;
+  }
+
+  .cart_content {
+    width: 960px;
+    height: 450px;
+  }
+
+  .empty {
+    width: 30%;
+  }
+
+  .modal {
+    width: 400px;
+  }
+}
+
+@media (max-width: 1250px) {
+  .block_tiles {
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 930px;
+  }
+
+  .tile {
+    width: 300px;
+  }
+
+  .main_left input {
+    width: 500px;
+  }
+
+  .cart_content {
+    width: 960px;
+    height: 450px;
+  }
+
+  .empty {
+    width: 30%;
+  }
+
+  .modal {
+    width: 400px;
+  }
+}
+
+@media (max-width: 950px) {
+  .block_tiles {
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 620px;
+  }
+
+  .tile {
+    width: 300px;
+  }
+
+  .main_left input {
+    width: 350px;
+  }
+
+  .cart_content {
+    width: 650px;
+    height: 450px;
+  }
+
+  .added_tile:nth-child(2n) {
+    margin-right: 0;
+  }
+
+  .empty {
+    width: 40%;
+  }
+
+  .modal {
+    width: 400px;
+  }
+}
+
+@media (max-width: 630px) {
+  .block_tiles {
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 330px;
+  }
+
+  .tile {
+    width: 100%;
+  }
+
+  .tile:nth-child(1n) {
+    margin-right: 0;
+  }
+
+  .main_left input {
+    width: 350px;
+  }
+
+  .cart_content {
+    width: 350px;
+    height: 450px;
+  }
+
+  .added_tile:nth-child(1n) {
+    margin-right: 0;
+  }
+
+  .empty {
+    width: 80%;
+  }
+
+  .modal {
+    width: 300px;
+  }
+}
+
+@media (max-width: 350px) {
+  .block_tiles {
+    flex-wrap: nowrap;
+    flex-direction: column;
+    width: 300px;
+  }
+
+  .tile {
+    width: 100%;
+  }
+
+  .tile:nth-child(1n) {
+    margin-right: 0;
+  }
+
+  .main_left input {
+    width: 300px;
+  }
+
+  .cart_content {
+    width: 100%;
+  }
+
+  .added_tile:nth-child(1n) {
+    margin-right: 0;
+  }
+
+  .empty {
+    width: 50%;
+  }
+
+  .modal {
+    width: 300px;
+  }
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  background: linear-gradient(180deg, #00c6fb, #005bea);
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: linear-gradient(180deg, #00c6fb, #005bea);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body,
+html {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+}
+
+body {
+  background: linear-gradient(180deg, #00c6fb, #005bea);
+}
+
+main {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}

@@ -13,14 +13,14 @@ const Cart = () => {
 
   const toggleCartStatus = () => {
     cartWrapper.children.length > 0
-      ? (headerCart.textContent = "Ваши товары:")
-      : (headerCart.textContent = "Ваша корзина пуста!");
+      ? (headerCart.textContent = "Your items:")
+      : (headerCart.textContent = "Your cart is empty!");
 
     if (cartWrapper.children.length > 0) {
-      headerCart.textContent = "Ваши товары:";
+      headerCart.textContent = "Your items:";
       hideElems(empty);
     } else {
-      headerCart.textContent = "Ваша корзина пуста!";
+      headerCart.textContent = "Your cart is empty!";
       showElems(empty);
     }
   };
